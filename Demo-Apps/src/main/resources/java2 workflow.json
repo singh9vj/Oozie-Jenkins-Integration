@@ -1,0 +1,65 @@
+[
+{
+  "pk": 17, 
+  "model": "desktop.document2", 
+  "fields": {
+    "search": null, 
+    "uuid": "a9cfc160-1e2c-5400-b653-a8ba801a8135", 
+    "extra": "", 
+    "type": "oozie-workflow2", 
+    "description": "", 
+    "is_history": false, 
+    "parent_directory": [
+      "a0a1fc2c-ac4a-4a92-825f-a75b6e4c7942", 
+      1, 
+      false
+    ], 
+    "is_managed": false, 
+    "last_modified": "2019-06-08T05:35:56", 
+    "version": 1, 
+    "owner": [
+      "cloudera"
+    ], 
+    "dependencies": [
+      [
+        "514d390a-fae3-44ed-9b1e-45c6bd10f794", 
+        1, 
+        true
+      ], 
+      [
+        "adab55ab-216c-44f0-bb31-c6a2d82c3924", 
+        1, 
+        true
+      ], 
+      [
+        "75d1f8fd-c9b0-4914-8e18-e62b5f85be9f", 
+        1, 
+        true
+      ], 
+      [
+        "5d816177-f5d5-4c6c-b3ad-f667eb475b72", 
+        1, 
+        true
+      ], 
+      [
+        "3ba7b0c5-3d2d-43bf-ad7b-3442b60b31c0", 
+        1, 
+        true
+      ], 
+      [
+        "118cd05a-93b3-4943-89ef-99bf0c176ce5", 
+        1, 
+        true
+      ], 
+      [
+        "ca7ccee6-edb6-499c-8af3-75558e4bc728", 
+        1, 
+        true
+      ]
+    ], 
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Java program\", \"widgetType\": \"java-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\", \"size\": 12}], \"id\": \"37914497-a4df-828d-ec08-daf5ae895eec\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"1f0b204d-95d1-c0eb-0004-f82ae804f7ff\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Java program\", \"widgetType\": \"java-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\", \"size\": 12}], \"id\": \"37914497-a4df-828d-ec08-daf5ae895eec\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"05e5f089-764b-f36f-a13e-bfb9bed018e7\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"d1bf16e6-36f6-d4a4-67df-38a90248ef2c\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"05e5f089-764b-f36f-a13e-bfb9bed018e7\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"d1bf16e6-36f6-d4a4-67df-38a90248ef2c\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"1f0b204d-95d1-c0eb-0004-f82ae804f7ff\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"a4d58d89-f784-4a6a-d130-6a6a39367707\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1559994410.56\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"name\": \"java2 workflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"6d16ea34-104d-ccfc-cd35-6e1062ab752b\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"6d16ea34-104d-ccfc-cd35-6e1062ab752b\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"java-6d16\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [], \"job_xml\": [], \"jar_path\": \"/user/cloudera/lib/my-app-1.0-SNAPSHOT.jar\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": false, \"prepares\": [], \"arguments\": [{\"value\": \"Hello java2\"}], \"main_class\": \"com.spark.DemoSubWorkflow\", \"credentials\": [], \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"java-widget\", \"id\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\", \"actionParameters\": []}], \"id\": 17, \"nodeNamesMapping\": {\"6d16ea34-104d-ccfc-cd35-6e1062ab752b\": \"java-6d16\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"a9cfc160-1e2c-5400-b653-a8ba801a8135\"}}", 
+    "is_trashed": false, 
+    "name": "java2 workflow"
+  }
+}
+]
