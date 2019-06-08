@@ -1,134 +1,82 @@
 [
 {
-  "pk": 15, 
+  "pk": 21, 
   "model": "desktop.document2", 
   "fields": {
     "search": null, 
     "uuid": "5ac89cba-4a92-2866-2094-13837fbd582e", 
     "extra": "", 
     "type": "oozie-workflow2", 
-    "description": "", 
+    "description": "java workflow, which is independent subworkflow", 
     "is_history": false, 
     "parent_directory": [
-      "a0a1fc2c-ac4a-4a92-825f-a75b6e4c7942", 
+      "a68783c1-6d6f-4eda-bf66-df4b54bb7563", 
       1, 
       false
     ], 
     "is_managed": false, 
-    "last_modified": "2019-06-08T04:37:00", 
+    "last_modified": "2019-06-08T09:27:27", 
     "version": 1, 
     "owner": [
       "cloudera"
     ], 
-    "dependencies": [
-      [
-        "d799df37-eb20-4de3-a8d2-b3d3a321b26d", 
-        1, 
-        true
-      ], 
-      [
-        "d00e32f4-4142-4640-b462-23fbec383a50", 
-        1, 
-        true
-      ]
-    ], 
+    "dependencies": [], 
     "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Java program\", \"widgetType\": \"java-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f2de1b9-6794-6331-086d-e662f42e977e\", \"size\": 12}], \"id\": \"25924bdf-6976-bef8-fa8e-a26f1351d976\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"b5b9f6d8-f507-bbb0-0f01-f274cf73cbd7\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Java program\", \"widgetType\": \"java-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f2de1b9-6794-6331-086d-e662f42e977e\", \"size\": 12}], \"id\": \"25924bdf-6976-bef8-fa8e-a26f1351d976\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"60962e9e-a7cb-1d92-2712-1ebcd99de6cb\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"9e56d621-a9e6-8a7a-e351-aa43874a4706\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"60962e9e-a7cb-1d92-2712-1ebcd99de6cb\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"9e56d621-a9e6-8a7a-e351-aa43874a4706\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"b5b9f6d8-f507-bbb0-0f01-f274cf73cbd7\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"d410972f-5370-0d97-c8ea-52a33c377b85\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1559993747.24\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"JavaWorkflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"17c9c895-5a16-7443-bb81-f34b30b21548\": [], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f2de1b9-6794-6331-086d-e662f42e977e\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"3f2de1b9-6794-6331-086d-e662f42e977e\"]}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"3f2de1b9-6794-6331-086d-e662f42e977e\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"3f2de1b9-6794-6331-086d-e662f42e977e\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"java-3f2d\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [], \"job_xml\": [], \"jar_path\": \"/user/cloudera/lib/my-app-1.0-SNAPSHOT.jar\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": false, \"main_class\": \"com.spark.DemoJavaMain\", \"arguments\": [{\"value\": \"Hello\"}, {\"value\": \"Oozie!!\"}], \"prepares\": [], \"credentials\": [], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"java-widget\", \"id\": \"3f2de1b9-6794-6331-086d-e662f42e977e\", \"actionParameters\": []}], \"id\": null, \"nodeNamesMapping\": {\"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f2de1b9-6794-6331-086d-e662f42e977e\": \"java-3f2d\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\"}, \"uuid\": \"5ac89cba-4a92-2866-2094-13837fbd582e\"}}", 
     "is_trashed": false, 
-    "name": "JavaWorkflow"
+    "name": "JavaWorkflowTest"
   }
 },
 {
-  "pk": 17, 
+  "pk": 22, 
   "model": "desktop.document2", 
   "fields": {
     "search": null, 
     "uuid": "a9cfc160-1e2c-5400-b653-a8ba801a8135", 
     "extra": "", 
     "type": "oozie-workflow2", 
-    "description": "", 
+    "description": "Java2 Workflow, which is independent subworkflow", 
     "is_history": false, 
     "parent_directory": [
-      "a0a1fc2c-ac4a-4a92-825f-a75b6e4c7942", 
+      "a68783c1-6d6f-4eda-bf66-df4b54bb7563", 
       1, 
       false
     ], 
     "is_managed": false, 
-    "last_modified": "2019-06-08T05:35:56", 
+    "last_modified": "2019-06-08T09:27:27", 
     "version": 1, 
     "owner": [
       "cloudera"
     ], 
-    "dependencies": [
-      [
-        "514d390a-fae3-44ed-9b1e-45c6bd10f794", 
-        1, 
-        true
-      ], 
-      [
-        "adab55ab-216c-44f0-bb31-c6a2d82c3924", 
-        1, 
-        true
-      ], 
-      [
-        "75d1f8fd-c9b0-4914-8e18-e62b5f85be9f", 
-        1, 
-        true
-      ], 
-      [
-        "5d816177-f5d5-4c6c-b3ad-f667eb475b72", 
-        1, 
-        true
-      ], 
-      [
-        "3ba7b0c5-3d2d-43bf-ad7b-3442b60b31c0", 
-        1, 
-        true
-      ], 
-      [
-        "118cd05a-93b3-4943-89ef-99bf0c176ce5", 
-        1, 
-        true
-      ], 
-      [
-        "ca7ccee6-edb6-499c-8af3-75558e4bc728", 
-        1, 
-        true
-      ]
-    ], 
+    "dependencies": [], 
     "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Java program\", \"widgetType\": \"java-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\", \"size\": 12}], \"id\": \"37914497-a4df-828d-ec08-daf5ae895eec\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"1f0b204d-95d1-c0eb-0004-f82ae804f7ff\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Java program\", \"widgetType\": \"java-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\", \"size\": 12}], \"id\": \"37914497-a4df-828d-ec08-daf5ae895eec\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"05e5f089-764b-f36f-a13e-bfb9bed018e7\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"d1bf16e6-36f6-d4a4-67df-38a90248ef2c\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"05e5f089-764b-f36f-a13e-bfb9bed018e7\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"d1bf16e6-36f6-d4a4-67df-38a90248ef2c\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"externalIdUrl\": \"\", \"properties\": {}, \"externalId\": \"\", \"isLoading\": true, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"1f0b204d-95d1-c0eb-0004-f82ae804f7ff\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"a4d58d89-f784-4a6a-d130-6a6a39367707\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1559994410.56\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"name\": \"java2 workflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"6d16ea34-104d-ccfc-cd35-6e1062ab752b\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"6d16ea34-104d-ccfc-cd35-6e1062ab752b\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"java-6d16\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [], \"job_xml\": [], \"jar_path\": \"/user/cloudera/lib/my-app-1.0-SNAPSHOT.jar\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": false, \"prepares\": [], \"arguments\": [{\"value\": \"Hello java2\"}], \"main_class\": \"com.spark.DemoSubWorkflow\", \"credentials\": [], \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"java-widget\", \"id\": \"6d16ea34-104d-ccfc-cd35-6e1062ab752b\", \"actionParameters\": []}], \"id\": 17, \"nodeNamesMapping\": {\"6d16ea34-104d-ccfc-cd35-6e1062ab752b\": \"java-6d16\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"a9cfc160-1e2c-5400-b653-a8ba801a8135\"}}", 
     "is_trashed": false, 
     "name": "java2 workflow"
   }
 },
 {
-  "pk": 19, 
+  "pk": 23, 
   "model": "desktop.document2", 
   "fields": {
     "search": null, 
     "uuid": "622823b0-83e3-cc45-aefb-4e9e0bf5cc0d", 
     "extra": "", 
     "type": "oozie-workflow2", 
-    "description": "", 
+    "description": "Java Parent Child", 
     "is_history": false, 
     "parent_directory": [
-      "a0a1fc2c-ac4a-4a92-825f-a75b6e4c7942", 
+      "a68783c1-6d6f-4eda-bf66-df4b54bb7563", 
       1, 
       false
     ], 
     "is_managed": false, 
-    "last_modified": "2019-06-08T05:50:52", 
+    "last_modified": "2019-06-08T09:27:27", 
     "version": 1, 
     "owner": [
       "cloudera"
     ], 
     "dependencies": [
       [
-        "1a6dbaf6-c206-47f9-9f92-4ddeee6ad50b", 
-        1, 
-        true
-      ], 
-      [
-        "02bb9824-df90-40a4-ba36-f6617e84512e", 
+        "0220d0cd-572d-49ba-95ce-6e809a42c804", 
         1, 
         true
       ], 
@@ -149,22 +97,22 @@
   }
 },
 {
-  "pk": 29, 
+  "pk": 24, 
   "model": "desktop.document2", 
   "fields": {
     "search": null, 
     "uuid": "3c4db03d-681f-ee72-1801-459a9b6b1d55", 
     "extra": "", 
     "type": "oozie-coordinator2", 
-    "description": "Schedule JavaParentChild every 10 mins", 
+    "description": "Schedule JavaParentChild every 10 min", 
     "is_history": false, 
     "parent_directory": [
-      "a0a1fc2c-ac4a-4a92-825f-a75b6e4c7942", 
+      "a68783c1-6d6f-4eda-bf66-df4b54bb7563", 
       1, 
       false
     ], 
     "is_managed": false, 
-    "last_modified": "2019-06-08T06:08:21", 
+    "last_modified": "2019-06-08T09:27:27", 
     "version": 1, 
     "owner": [
       "cloudera"
