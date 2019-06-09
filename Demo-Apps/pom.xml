@@ -169,7 +169,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<warFile>target/Spring3HibernateApp.war</warFile>
+					<warFile>target/my-app.war</warFile>
 					<path>/</path>
 					<update>true</update>
 					<port>11011</port>
