@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BugCollection version='3.0.1' threshold='low' effort='max'><Error></Error><Project><SrcDir>/root/pipeline/Oozie-Jenkins-Integration/Demo-Apps/src/main/java</SrcDir><SrcDir>/root/pipeline/Oozie-Jenkins-Integration/Demo-Apps/src/test/java</SrcDir></Project></BugCollection>

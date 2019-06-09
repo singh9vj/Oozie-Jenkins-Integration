@@ -1,6 +1,0 @@
-com\spark\DemoJavaMain.class
-com\spark\SparkFileCopy.class
-com\spark\WordCount$Map.class
-com\spark\WordCount$Reduce.class
-com\spark\WordCount.class
-com\spark\DemoSubWorkflow.class
