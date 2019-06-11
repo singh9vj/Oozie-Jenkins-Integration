@@ -9,8 +9,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-#steps:
-#- task: Maven@3
+steps:
+- task: 
 #  inputs:
 #    mavenPomFile: 'Demo-Apps/pom.xml'
 #    mavenOptions: '-Xmx3072m'
@@ -22,7 +22,9 @@ pool:
 #    goals: 'package'
 
 
+
 - script: |
     grep -Po '"last_modified":(\d*?,|.*?[^\\]",)' ./Demo-Apps/src/main/resources/JaveParentChild.json
 
-
+- script: |
+    python conf.py
