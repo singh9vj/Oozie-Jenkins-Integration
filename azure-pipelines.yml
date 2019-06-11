@@ -1,5 +1,5 @@
 jobs:
-- job: first variable display
+- job: first
   variables:
   - group: emirates-group
   - name: job_name
