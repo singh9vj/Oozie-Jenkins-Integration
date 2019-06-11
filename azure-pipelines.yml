@@ -17,24 +17,4 @@ steps:
     architecture: 'x64'
 
 
-
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'inline'
-    script: 'print(hello)'
-    workingDirectory: '.'
-
-
-
-- task: PythonScript@0
-  inputs:
-    targetType: 'inline'
-    script: |
-      print('Hello world 1')
-      print('Hello world 2')
-
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'filePath'
-    scriptPath: 'conf.py'
-    
+- script: python conf.py
