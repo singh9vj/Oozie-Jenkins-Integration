@@ -17,11 +17,10 @@ steps:
     architecture: 'x64'
 
 - script: pwd && ls -la
+- script: echo $hive && echo $pig
 - script: python ./conf.py
-
 - script: python ./script.py
 
 variables:
 - group: emirates-group
 
-- script: echo $hive && echo $pig
