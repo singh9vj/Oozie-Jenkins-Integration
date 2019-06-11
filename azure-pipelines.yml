@@ -18,3 +18,7 @@ steps:
 
 - script: pwd && ls -la
 - script: python ./conf.py
+
+variables:
+- group: emirates_group
+
