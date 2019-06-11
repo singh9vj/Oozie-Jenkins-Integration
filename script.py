@@ -1,6 +1,6 @@
 import json
 
-json_file_path = "tree/master/oozie-repository/coordinators/projectname/appname/ParentSchedule.json"
+json_file_path = "./Demo-Apps/src/main/resources/JaveParentChild.json"
 
 def parse_json_object(data):
     for items in data:
