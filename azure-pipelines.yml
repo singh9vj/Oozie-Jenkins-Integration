@@ -20,3 +20,7 @@ steps:
 - script: python ./conf.py
 
 - script: python ./script.py
+
+variables:
+- group: emirates-group
+
