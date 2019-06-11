@@ -9,18 +9,20 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: Maven@3
-  inputs:
-    mavenPomFile: 'Demo-Apps/pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: false
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+#steps:
+#- task: Maven@3
+#  inputs:
+#    mavenPomFile: 'Demo-Apps/pom.xml'
+#    mavenOptions: '-Xmx3072m'
+#    javaHomeOption: 'JDKVersion'
+#    jdkVersionOption: '1.8'
+#    jdkArchitectureOption: 'x64'
+#    publishJUnitResults: false
+#    testResultsFiles: '**/surefire-reports/TEST-*.xml'
 #    goals: 'package'
 
 
 - script: |
     grep -Po '"last_modified":(\d*?,|.*?[^\\]",)' ./Demo-Apps/src/main/resources/JaveParentChild.json
+
+
