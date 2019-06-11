@@ -1,7 +1,3 @@
-pool:
-  vmImage: 'ubuntu-16.04'
-
-
 jobs:
 - job: build_Virginia
   variables:
@@ -11,7 +7,7 @@ jobs:
   steps:
     - script: |
         echo $(job_name)
-        echo $var1
+        echo $(var1)
       displayName: 'Show Variable Values'
 - job: build_Oregon
   variables:
@@ -21,6 +17,6 @@ jobs:
   steps:
     - script: |
         echo $(job_name)
-        echo $hive
-        echo $pig
+        echo $(hive)
+        echo $(pig)
       displayName: 'Show Variable Values'
