@@ -24,4 +24,4 @@ steps:
 variables:
 - group: emirates-group
 
-- script: 'echo $hive && echo $pig'
+- script: echo $hive && echo $pig
