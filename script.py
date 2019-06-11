@@ -1,6 +1,6 @@
 import json
 
-json_file_path = "./Demo-Apps/src/main/resources/JaveParentChild.json"
+json_file_path = "Demo-Apps/src/main/resources/JaveParentChild.json"
 
 def parse_json_object(data):
     for items in data:
