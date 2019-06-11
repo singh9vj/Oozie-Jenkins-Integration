@@ -6,6 +6,7 @@ jobs:
     value: 'Build us-east-1'
   steps:
     - script: |
+        pwd && ls -la
         echo $(job_name)
         echo $(var1)
       displayName: 'Show Variable Values'
