@@ -21,6 +21,15 @@ steps:
 - script: python ./conf.py
 - script: python ./script.py
 
-variables:
-- group: emirates-group
+jobs:
+- job: first variable display
+  variables:
+  - group: emirates-group
+  - name: job_name
+    value: 'Execute step 1'
+  steps:
+    - script: |
+        echo $hive
+        echo $pig
+      displayName: 'show variable values'
 
