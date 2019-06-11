@@ -4,8 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
+# other options: 'macOS-10.13', 'vs2017-win2016'
+
 pool:
-  vmImage: 'ubuntu-16.04' # other options: 'macOS-10.13', 'vs2017-win2016'
+  vmImage: 'ubuntu-16.04'
 
 steps:
 - task: UsePythonVersion@0
@@ -14,17 +16,16 @@ steps:
     architecture: 'x64'
 
 
+
+- script: python -m pip install --upgrade pip setuptools wheel
+  displayName: 'Install tools'
+
 - task: PythonScript@0
   inputs:
     targetType: 'inline'
     script: |
       print('Hello world 1')
       print('Hello world 2')
-
-
-- script: python -m pip install --upgrade pip setuptools wheel
-  displayName: 'Install tools'
-
 
 - task: PythonScript@0
   inputs:
