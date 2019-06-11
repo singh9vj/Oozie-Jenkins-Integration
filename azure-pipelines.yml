@@ -16,5 +16,5 @@ steps:
     versionSpec: '3.6'
     architecture: 'x64'
 
-
+- script: pwd && ls -la
 - script: python ./conf.py
