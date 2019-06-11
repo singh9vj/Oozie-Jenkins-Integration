@@ -1,12 +1,9 @@
-jobs:
 - job: first
   variables:
-  - group: emirates-group
+  - group: variable3
   - name: job_name
-    value: 'Execute step 1'
+    value: 'Execute var1'
   steps:
     - script: |
-        echo $hive
-        echo $pig
+        echo $var1
       displayName: 'show variable values'
-
