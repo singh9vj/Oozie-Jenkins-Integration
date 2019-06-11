@@ -24,3 +24,8 @@ steps:
 variables:
 - group: emirates-group
 
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'echo $hive
+      echo $pig'
