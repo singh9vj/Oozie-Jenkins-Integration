@@ -26,5 +26,8 @@ steps:
 - script: |
     grep -Po '"last_modified":(\d*?,|.*?[^\\]",)' ./Demo-Apps/src/main/resources/JaveParentChild.json
 
-- script: |
-    python conf.py
+
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'conf.py'
