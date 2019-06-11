@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: 
+- task: PythonScript@0
 #  inputs:
 #    mavenPomFile: 'Demo-Apps/pom.xml'
 #    mavenOptions: '-Xmx3072m'
