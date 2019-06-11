@@ -17,4 +17,4 @@ steps:
     architecture: 'x64'
 
 
-- script: python conf.py
+- script: python ./conf.py
