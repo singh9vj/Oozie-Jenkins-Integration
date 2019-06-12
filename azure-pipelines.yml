@@ -1,8 +1,6 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
-variables:
-- group: variable3
 
 - task: Bash@3
   inputs:
@@ -14,3 +12,6 @@ variables:
   inputs:
     scriptSource: 'filePath'
     scriptPath: 'conf.py'
+
+variables:
+- group: variable3
