@@ -1,12 +1,11 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
-
+steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
     script: 'echo $(var1)'
-
 
 - task: PythonScript@0
   inputs:
