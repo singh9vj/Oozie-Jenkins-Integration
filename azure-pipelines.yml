@@ -1,5 +1,8 @@
-jobs:
-- job: build_Virginia
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+steps:
+
   variables:
   - group: variable3
   - name: job_name
@@ -10,14 +13,5 @@ jobs:
         echo $(job_name)
         echo $(var1)
       displayName: 'Show Variable Values'
-- job: build_Oregon
-  variables:
-  - group: emirates-group
-  - name: job_name
-    value: 'Build us-west-2'
-  steps:
-    - script: |
-        echo $(job_name)
-        echo $(hive)
-        echo $(pig)
-      displayName: 'Show Variable Values'
+
+
