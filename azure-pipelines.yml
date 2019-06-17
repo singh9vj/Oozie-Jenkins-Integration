@@ -12,5 +12,3 @@ steps:
     scriptSource: 'filePath'
     scriptPath: 'conf.py'
 
-variables:
-- group: variable3
