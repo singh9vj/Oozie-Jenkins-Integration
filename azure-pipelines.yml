@@ -1,3 +1,6 @@
+pool:
+    name: Default
+
 steps:
 - task: Bash@3
   inputs:
